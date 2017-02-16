@@ -4,10 +4,8 @@ W=150
 H=150
 
 # Keep only 1000 images of each class
-CATS=(`ls cat*.jpg`)
-rm "${CATS[@]:1000:12500}"
-DOGS=(`ls dog*.jpg`)
-rm "${DOGS[@]:1000:12500}"
+rm cat.{1000:12500}.jpg
+rm dog.{1000:12500}.jpg
 
 echo "Done removing images"
 
