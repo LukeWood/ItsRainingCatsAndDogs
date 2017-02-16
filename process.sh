@@ -4,8 +4,8 @@ W=150
 H=150
 
 # Keep only 1000 images of each class
-rm cat.{1000..12500}.jpg
-rm dog.{1000..12500}.jpg
+rm cat.{1000..12499}.jpg
+rm dog.{1000..12499}.jpg
 
 echo "Done removing images"
 
