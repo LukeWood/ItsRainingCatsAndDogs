@@ -35,6 +35,6 @@ rm `ls -1 dog*.jpg | tail -n $DELETE`
 
 # Crop images
 echo "Cropping images"
-for f in *.jpeg; do
-    ~/Desktop/Projects/ML/Lab3/img/aspect ${W}x${H} -m crop $f $f
+for f in *.jpg; do
+    ~/Desktop/aspect ${W}x${H} -m crop $f $f
 done
